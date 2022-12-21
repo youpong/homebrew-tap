@@ -4,3 +4,9 @@
 | :---     |   :---: | ---:
 | reduce | Command line URL shortner using reduced.to API | [reduce](https://github.com/TanmayPatil105/reduce)
 
+
+### Tappping
+
+```
+$ brew tap TanmayPatil105/tap
+```
