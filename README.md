@@ -2,7 +2,7 @@
 
 | Name | Description | Link
 | :---     |   :---: | ---:
-| reduce | Command line URL shortner using reduced.to API | [reduce](https://github.com/TanmayPatil105/reduce)
+| reduce | Command line URL shortener using reduced.to API | [reduce](https://github.com/TanmayPatil105/reduce)
 
 
 ### Tappping
