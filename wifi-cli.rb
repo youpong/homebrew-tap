@@ -8,6 +8,7 @@ class WifiCli < Formula
     # depends_on "cmake" => :build
   
     def install
+      system "./configure"
       bin.install "src/wifi"
     end
   
