@@ -1,11 +1,11 @@
 class Procfetch < Formula
     desc "A command-line system information utility written in C++"
-    homepage ""
+    homepage "https://tanmaypatil105.github.io/procfetch/"
     url "https://github.com/TanmayPatil105/procfetch/archive/refs/tags/v0.0.2.tar.gz"
     sha256 "073f02c6823b5597580e528029d3f2b0e071cad483c6576f1437c7c1072d40cd"
     license "GPL-3.0"
   
-    depends_on "cmake" => :build
+    # depends_on "cmake" => :build
   
     def install
       system "make"
