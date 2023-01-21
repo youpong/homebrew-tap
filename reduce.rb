@@ -15,4 +15,4 @@ class Reduce < Formula
     test do
       system "#{bin}/reduce -h"
     end
-  end 
+  end
