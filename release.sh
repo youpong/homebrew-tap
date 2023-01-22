@@ -2,8 +2,9 @@ GITHUB_NAME="TanmayPatil105"
 GITHUB_REPO="reduce"
 TAP_NAME="reduce"
 BINARY_NAME="reduce"
-DESCRIPTION=$(curl -s -L https://api.github.com/repos/$GITHUB_NAME/$GITHUB_REPO | jq -r  .description)
-LICENSE=$(curl -s -L https://api.github.com/repos/$GITHUB_NAME/$GITHUB_REPO | jq -r  .license.spdx_id)
+REPO=$(curl -s -L https://api.github.com/repos/$GITHUB_NAME/$GITHUB_REPO)
+DESCRIPTION=$(echo $REPO | jq -r  .description)
+LICENSE=$(echo $REPO | jq -r  .license.spdx_id)
 VERSION=$(curl -s https://api.github.com/repos/$GITHUB_NAME/$GITHUB_REPO/releases/latest | jq -r .tag_name)
 SHA256=$(curl -s -L "https://github.com/$GITHUB_NAME/$GITHUB_REPO/archive/refs/tags/$VERSION.tar.gz" | shasum -a 256 | cut -d " " -f 1)
 
