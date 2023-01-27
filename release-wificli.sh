@@ -12,7 +12,7 @@ cat > $TAP_NAME.rb <<EOF
 class WifiCli < Formula
     desc "$DESCRIPTION"
     homepage "https://github.com/$GITHUB_NAME/$GITHUB_REPO"
-    url "https://github.com/$GITHUB_NAME/$GITHUB_REPO/archive/refs/tags/v0.0.1.tar.gz"
+    url "https://github.com/$GITHUB_NAME/$GITHUB_REPO/archive/refs/tags/$VERSION.tar.gz"
     sha256 "$SHA256"
     license "$LICENSE"
   
