@@ -6,7 +6,7 @@ on:
     branches: ['main']
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,7 +24,7 @@ jobs:
       run: |
         git config --local user.name  ${{ github.actor }}
         git add .
-        git commit -m "🚀 Update Homebrew Taps"
+        git commit -m "🚀 Update Homebrew Taps" | echo -n "No releases found"
 
     # Push Update taps 
     - name: Push changes 
