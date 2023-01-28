@@ -1,9 +1,9 @@
 class Reduce < Formula
-    desc "⚡ Extremely fast Command line URL shortener using reduced.to API"
+    desc "null"
     homepage ""
-    url "https://github.com/TanmayPatil105/reduce/archive/refs/tags/v0.0.5.tar.gz"
-    sha256 "3e159af0c04b690d1dc7d6a8de34c74799cd5c7bcf8840eba05587a0570e8998"
-    license "MIT"
+    url "https://github.com/TanmayPatil105/reduce/archive/refs/tags/null.tar.gz"
+    sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+    license "null"
 
     depends_on "go" => :build
 
