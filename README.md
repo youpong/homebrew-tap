@@ -1,10 +1,10 @@
 ## Info about formulae in this tap:
 
-| Name | Description | URL
-| :---     |   :---: | ---:
-| reduce | Command line URL shortener using reduced.to API | [reduce](https://github.com/TanmayPatil105/reduce)
-| wifi-cli   | Wi-fi through command line | [wifi](https://github.com/TanmayPatil105/wifi-cli)
-| procfetch  | A command-line system information utility written in C++ | [procfetch](https://github.com/TanmayPatil105/procfetch)
+| Name | Description | URL | version
+| :---     |   :---: | :---: |---:
+| reduce | Command line URL shortener using reduced.to API | [reduce](https://github.com/TanmayPatil105/reduce) | v0.0.5
+| wifi-cli   | Wi-fi through command line | [wifi](https://github.com/TanmayPatil105/wifi-cli) | v0.0.1
+| procfetch  | A command-line system information utility written in C++ | [procfetch](https://github.com/TanmayPatil105/procfetch) | v0.0.3
 
 
 ### Tappping
