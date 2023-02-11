@@ -1,9 +1,9 @@
 class WifiCli < Formula
-    desc "📶 Wifi through command line"
+    desc "null"
     homepage "https://github.com/TanmayPatil105/wifi-cli"
-    url "https://github.com/TanmayPatil105/wifi-cli/archive/refs/tags/v0.0.1.tar.gz"
-    sha256 "cfcd367b9d6612a1fbb5e26285283386011699ee688d4abbbb22bb0d317321bb"
-    license "GPL-3.0"
+    url "https://github.com/TanmayPatil105/wifi-cli/archive/refs/tags/null.tar.gz"
+    sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+    license "null"
   
   
     def install
