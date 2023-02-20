@@ -1,8 +1,8 @@
 class Procfetch < Formula
     desc "🎨 A command-line system information utility written in C++"
     homepage "https://tanmaypatil105.github.io/procfetch/"
-    url "https://github.com/TanmayPatil105/procfetch/archive/refs/tags/v0.1.2.tar.gz"
-    sha256 "7788bcbb666337499ed00088b66948e74aed6cb743030d82eb2dd1a65569d710"
+    url "https://github.com/TanmayPatil105/procfetch/archive/refs/tags/v0.1.5.tar.gz"
+    sha256 "88894f2610487e96300ea8ac6d31d9a3106e0628dbf39d7d49e32269ea699f95"
     license "GPL-3.0"
     
     def install
