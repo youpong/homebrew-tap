@@ -8,8 +8,8 @@ class Procfetch < Formula
     def install
       system "./configure"
       system "make"
-      system "mkdir -p /usr/share/procfetch/ascii"
-      system "cp ascii/* /usr/share/procfetch/ascii"
+      system "sudo mkdir -p /usr/share/procfetch/ascii"
+      system "sudo cp ascii/* /usr/share/procfetch/ascii"
       bin.install "src/procfetch"
     end
   
