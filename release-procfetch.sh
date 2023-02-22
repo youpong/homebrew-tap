@@ -17,10 +17,10 @@ class Procfetch < Formula
     license "$LICENSE"
     
     def install
-      system "./configure -C brew"
+      system "./configure"
       system "make"
-      system "mkdir -p $HOMEBREW_PREFIX/share/procfetch/ascii"
-      system "cp ascii/* $HOMEBREW_PREFIX/share/procfetch/ascii"
+      system "mkdir -p /usr/share/procfetch/ascii"
+      system "cp ascii/* /usr/share/procfetch/ascii"
       bin.install "src/$BINARY_NAME"
     end
   

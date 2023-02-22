@@ -6,10 +6,10 @@ class Procfetch < Formula
     license "GPL-3.0"
     
     def install
-      system "./configure -C brew"
+      system "./configure"
       system "make"
-      system "mkdir -p /home/linuxbrew/.linuxbrew/share/procfetch/ascii"
-      system "cp ascii/* /home/linuxbrew/.linuxbrew/share/procfetch/ascii"
+      system "mkdir -p /usr/share/procfetch/ascii"
+      system "cp ascii/* /usr/share/procfetch/ascii"
       bin.install "src/procfetch"
     end
   
