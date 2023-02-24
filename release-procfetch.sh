@@ -17,11 +17,8 @@ class Procfetch < Formula
     license "$LICENSE"
     
     def install
-      system "./configure"
-      system "make"
-      system "sudo mkdir -p /usr/share/procfetch/ascii"
-      system "sudo cp ascii/* /usr/share/procfetch/ascii"
-      bin.install "src/$BINARY_NAME"
+      system "./configure", "--prefix=#{prefix}"
+      system "make", "install"
     end
   
     test do
