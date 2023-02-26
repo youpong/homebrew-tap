@@ -6,11 +6,8 @@ class Procfetch < Formula
     license "GPL-3.0"
     
     def install
-      system "./configure"
-      system "make"
-      system "sudo mkdir -p /usr/share/procfetch/ascii"
-      system "sudo cp ascii/* /usr/share/procfetch/ascii/"
-      bin.install "src/procfetch"
+      system "./configure", "--prefix=#{prefix}"
+      system "make", "install"
     end
   
     test do
